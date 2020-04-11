@@ -1,0 +1,145 @@
+@font-face {
+	font-family: Monsterrat-Black;
+	src: url(./fonts/Montserrat-Black.ttf);
+}
+@font-face {
+	font-family: Monsterrat-Regular;
+	src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: Monsterrat-Bold;
+	src: url(./fonts/Montserrat-Bold.ttf);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: url("./21212.jpg");
+	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	z-index: -1;
+}
+body {
+	display: flex;
+}
+
+.content {
+	width: 95vw;
+	height: 100vh;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	margin-left: 50px;
+	margin-top: 35px;
+	font-family: Monsterrat-Black;
+	font-size: 1.4em;
+}
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 35px;
+	margin-right: 50px;
+	
+}
+.button {
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	text-decoration-style: none;
+	position: relative;
+	width: 90px;
+	height: 30px;
+	background: rgba(225,225,225,0);
+	text-decoration: none;
+	border-radius: 20px;
+	margin-right: 20px;
+	transition: 1s;
+	font-size: 1em;
+	font-family: Monsterrat-Regular;
+}
+.button:hover {
+	cursor: pointer;
+	background: black;
+	color: white;
+}
+
+.parentGen {
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+ 	width: 100%;
+ 	height: 100px;
+ 	position: relative;
+ 	top: 60vh;
+}
+.genbutton {
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	width: 180px;
+	height: 35px;
+	background: black;
+	color: white;
+	position: relative;
+	border-radius: 20px;
+	font-size: 0.75em;
+	cursor: pointer;
+	box-shadow: 0px 30px 30px rgba(0,0,0,0.5);
+	transition: transform 0.5s;
+	font-family: Monsterrat-Regular;
+	mix-blend-mode: multiply;
+}
+
+.genbutton:hover {
+	transform: scale(1.2);
+}
+.left-menu {
+	width: 5vw;
+	height: 100vh;
+	background: white;
+}
+.header-title {
+	font-size: 0.85em;
+	position: relative;
+	right: 10vh;
+	margin: auto;
+	font-family: Monsterrat-Bold;
+
+}
+.left-menu-container {
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	width: 100vh;
+	height: 10vh;
+	position: relative;
+	transform: rotate(-90deg);
+	transform-origin: 5vh 5vh;
+	top: 90vh;
+}
+.image {
+	height: 35px;
+	width: 35px;
+	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	transform: rotate(90deg);
+ 	margin-right: auto;
+}
+.getintouch {
+	color: gray;
+	font-family: Monsterrat-Regular;
+	font-size: 0.96em;
+}
