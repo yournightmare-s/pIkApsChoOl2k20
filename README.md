@@ -1,3 +1,0 @@
-# nurik
-
-stas is god!
